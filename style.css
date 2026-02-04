@@ -379,6 +379,20 @@ footer button:hover {
     transform: translateY(-2px);
 }
 
+.result-score {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.result-score strong {
+    font-weight: 700;
+}
+
+
 /* ==============================
    Responsive
 ================================ */
