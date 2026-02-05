@@ -1,127 +1,113 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-    {
+  {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Which HTML tag is used to create a hyperlink?",
+    answer: "&lt;a&gt;",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "&lt;link&gt;",
+      "&lt;a&gt;",
+      "&lt;href&gt;",
+      "&lt;url&gt;"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which CSS property controls the text size?",
+    answer: "font-size",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "text-style",
+      "font-size",
+      "text-size",
+      "font-style"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Which JavaScript keyword is used to declare a constant?",
+    answer: "const",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "var",
+      "let",
+      "const",
+      "static"
     ]
   },
-    {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
-    {
+  {
+  numb: 4,
+  question: "Which symbol is used for single-line comments in JavaScript?",
+  answer: "//",
+  options: [
+    "&lt;!-- --&gt;",
+    "#",
+    "//",
+    "/* */"
+  ]
+   },
+  {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Which HTML attribute is used to define inline styles?",
+    answer: "style",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "class",
+      "font",
+      "styles",
+      "style"
     ]
   },
-    {
-      numb: 6,
-      question: "What does AJAX stand for",
-      answer: "Asynchronous JavaScript And XML",
-      options: [
-        "AutoComplete JavaScript And XML",
-        "Asynchronous JavaScript And HTML",
-        "Automatic JavaScript And XML",
-        "Asynchronous JavaScript And XML"
-      ]
-    },
-      {
-      numb: 7,
-      question: "What does XML stand for",
-      answer: "extensible markup language",
-      options: [
-        "extensible moderate language",
-        "extensive markup language",
-        "extensible markup language",
-        "extensible maping language"
-      ]
-    },
-      {
-      numb: 8,
-      question: "What does GIF stand for",
-      answer: "Graphics Interchange Format",
-      options: [
-        "Graphics Interchange Format",
-        "Graphics Interchange Frame",
-        "Graphics Internal Form",
-        "Graph Interchange Format"
-      ]
-    },
-      {
-      numb: 9,
-      question: "What does HTTP stand for",
-      answer: "Hypertext Transfer Protocol",
-      options: [
-        "Hypertext Transfering Protocol",
-        "Hypertext Transfer Prots",
-        "Hypertext Transfer Protocol",
-        "Hypertext Transfer Portals"
-      ]
-    },
-      {
-      numb: 10,
-      question: "What does API stand for",
-      answer: "Application Programming Interface",
-      options: [
-        "Application Program Input",
-        "Application Program Interface",
-        "Application Programming Interchange",
-        "Application Programming Interface  "
-      ]
-    },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  {
+    numb: 6,
+    question: "Which method is used to print output in the browser console?",
+    answer: "console.log()",
+    options: [
+      "document.write()",
+      "console.write()",
+      "console.log()",
+      "alert()"
+    ]
+  },
+  {
+    numb: 7,
+    question: "Which CSS property is used to change the background color?",
+    answer: "background-color",
+    options: [
+      "color",
+      "bgcolor",
+      "background-color",
+      "background-style"
+    ]
+  },
+  {
+    numb: 8,
+    question: "Which JavaScript function converts a string into an integer?",
+    answer: "parseInt()",
+    options: [
+      "parseFloat()",
+      "Number()",
+      "parseInt()",
+      "int()"
+    ]
+  },
+  {
+    numb: 9,
+    question: "Which HTML tag is used to display an image?",
+    answer: "&lt;img&gt;",
+    options: [
+      "&lt;image&gt;",
+      "&lt;img&gt;",
+      "&lt;src&gt;",
+      "&lt;picture&gt;"
+    ]
+  },
+  {
+    numb: 10,
+    question: "Which operator checks both value and type equality in JavaScript?",
+    answer: "===",
+    options: [
+      "==",
+      "=",
+      "!=",
+      "==="
+    ]
+  }
 ];
